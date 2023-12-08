@@ -1,0 +1,7 @@
+import shutil
+shutil.copy ("main.py", "main2.py")  # Copy the contents of "main.py" to create a new file named "main2.py"
+
+
+import shutil
+shutil.copytree("New Folder 1" ,"New Folder 2")  # Recursively copy the entire contents of "New Folder 1" to create "New Folder 2"
+# This includes all files and subdirectories within "New Folder 1". Very cool.
